@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>KaakyireBB Classic Collection</title>
+    <link rel="stylesheet" href="shop.css">
+
+  </head>
+<body>
+    <section id="header">
+        <a href="#"><img src="3D logo1 .png" class="logo" alt=""> </a>
+        <marquee><h4>KaakyireBB Classic Collections....In a class of your own</h4></marquee>
+
+      <div>
+          <ul id="navbar">
+              
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li id="lg-bag"><a href="cart.html"><div class="cart-icon"><ion-icon name="cart"></ion-icon><span id="cart-count">0</span></div></a></li>
+              <a href="#" id="close"><ion-icon name="close-circle-outline"></ion-icon></a>
+              <h5 id="date"></h5> 
+              <h5 id="time"></h5>
+          </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"> <ion-icon name="cart"></ion-icon></a>
+        <ion-icon id="bar" name="reorder-four-outline"></ion-icon>
+      </div>
+    </section> 
+
+
+  <div class="container">
+    <h1>Checkout</h1>
+    <form id="checkout-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="payment-method">Payment Method:</label>
+        <select id="payment-method" required>
+          <option value="">Select Payment Method</option>
+          <option value="mobile-money">Mobile Money</option>
+          <option value="credit-card">Credit Card</option>
+        </select>
+      </div>
+      <div id="mobile-money-details" class="form-group hidden">
+        <label for="mobile-money-provider">Mobile Money Provider:</label>
+        <select id="mobile-money-provider" required>
+          <option value="">Select Provider</option>
+          <option value="provider1">MTN</option>
+          <option value="provider2">AT</option>
+          <option value="provider2">Vodafone</option>
+        </select>
+      </div>
+      <button class="normal1" type="submit">Place Order</button>
+    </form>
+  </div>
+
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="3D logo1 .png" alt="">
+      <h4>Contact</h4>
+      <p><strong>Phone:</strong> +233 55 223 0864</p>
+      <p><strong>Address:</strong> H/14, Iron-City, Kasoa</p>
+      <p><strong>Hours:</strong> 8am - 10pm, Mon-Sat</p>
+       <div class="follow">
+        <h4>Follow us</h4>
+         <div class="icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-snapchat"></ion-icon>
+          <ion-icon name="logo-tiktok"></ion-icon>
+         </div>
+       </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+    
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="features/apple2.png" alt="">
+          <img src="features/play2.png" alt=""> 
+          <p>Secured Payment Gateways</p>
+          <img src="features/b1.png" alt="">
+        </div>
+    </div>
+    <div class="copyright">
+      <p>© 2023, KabibiMedia</p>
+  </div>
+   </footer>
+      
+
+  <script src="shop.js"></script>
+  <script src="proceedtochecklist.js"></script>
+  <script src="sproduct.js"></script>
+  <script src="cart.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+
+</html>
